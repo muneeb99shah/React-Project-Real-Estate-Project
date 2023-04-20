@@ -1,0 +1,63 @@
+import React from 'react'
+
+export default function Categories() {
+  return (
+    <section className="categories-container">
+                <div className=" display-fle ">
+                    <div className="categories">
+                        <a href="/" className="categories-link ">
+                            <div className="categories-items">
+                                <i className="fa fa-home"></i>
+                            </div>
+                            <h3>Houses</h3>
+                        </a>
+                    </div>
+                    {/* <!-- 2 --> */}
+                    <div className="categories">
+                        <a href="/" className="categories-link ">
+                            <div className="categories-items">
+                                <i className="fa fa-building-o"></i>
+                            </div>
+                            <h3>Apartments</h3>
+                        </a>
+                    </div>
+                    {/* <!-- 3 --> */}
+                    <div className="categories">
+                        <a href="/" className="categories-link ">
+                            <div className="categories-items">
+                                <i className="fa fa-shopping-basket"></i>
+                            </div>
+                            <h3>Commerical</h3>
+                        </a>
+                    </div>
+                    {/* <!-- 4 --> */}
+                    <div className="categories">
+                        <a href="/" className="categories-link ">
+                            <div className="categories-items">
+                                <i className="fa fa-home"></i>
+                            </div>
+                            <h3>Daily rental</h3>
+                        </a>
+                    </div>
+                    {/* <!-- 5 --> */}
+                    <div className="categories">
+                        <a href="/" className="categories-link ">
+                            <div className="categories-items">
+                                <i className="fa fa-building-o"></i>
+                            </div>
+                            <h3>New buildings</h3>
+                        </a>
+                    </div>
+                    {/* <!-- 6 --> */}
+                    <div className="categories">
+                        <a href="/" className="categories-link ">
+                            <div className="categories-items">
+                                <i className="fa fa-ellipsis-h"></i>
+                            </div>
+                            <h3>More</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+  )
+}

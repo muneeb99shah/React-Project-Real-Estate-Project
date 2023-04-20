@@ -1,0 +1,139 @@
+.img-form {
+  width: 84%;
+}
+
+.form-img-text {
+  width: 52%;
+}
+
+.main-form {
+  position: relative;
+  left: 11%;
+  margin-top: 5%;
+}
+
+.form-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding: 5%;
+  /* padding-bottom: 25px; */
+  box-shadow: 3px 3px 9px 5px lightgrey;
+  border-radius: 14px;
+}
+
+.socila-btn {
+  margin-bottom: 30px;
+}
+
+.singIn-G-F {
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  background: none;
+  border: 2px solid #3c76f2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.singIn-G-F a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3c76f2;
+  text-decoration: none;
+}
+
+.form-items input {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 3%;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 13px 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #fd5631;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-Values {
+  position: relative;
+  right: 5%;
+}
+
+.signIn-tab {
+  font-weight: 600;
+}
+
+.signIn-tab a {
+  color: #fd5631;
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+  display: block;
+}
+.valid-massage {
+  /* position: absolute; */
+  /* left: 47%; */
+  /* top: 27px; */
+  color: red;
+  z-index: 1;
+  font-size: 2.2rem;
+}
+
+.valid-massage-container {
+  text-align: center;
+}
+
+/* @media only screen and (max-width: 1500px) and (min-width: 800px)  {
+    .form-container {
+        width: 100%;
+        right: 10%;
+        margin-bottom: 10%;
+    }
+  } */
+@media only screen and (max-width: 700px) {
+  .form-container {
+    flex-direction: column;
+  }
+  .form-img-text,
+  .img-form {
+    width: 100%;
+  }
+  .form-Values,
+  .submit-btn {
+    right: 0px;
+    margin: 13px 0px;
+  }
+  .error-message {
+    margin-bottom: 13px;
+  }
+  .valid-massage {
+    /* left: 5%; */
+    /* top: 59%; */
+    font-size: 18px;
+    margin-right: 28%;
+  }
+  .valid-massage-container {
+    margin: 20px 0px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .form-container {
+    width: 100%;
+    right: 10%;
+    margin-bottom: 10%;
+  }
+}

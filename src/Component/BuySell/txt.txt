@@ -1,0 +1,47 @@
+import React from 'react'
+import ImgBuy from '../images/buy.jpg'
+import ImgSell from '../images/sell.jpg'
+import ImgRent from '../images/rent.jpg'
+
+export default function BuySell() {
+  return (
+    <section class="rent-section">
+
+    <div class="row rent-continer">
+        <div class="col-lg-4 colg-md-6 rent-items"> 
+            <img src={ImgBuy} alt="buy a property"/>
+            <div class="rent-text">
+                <h2>Buy Property</h2>
+                <p>Blandit lorem dictum in velit. Et nisi at faucibus mauris pretium enim. Risus sapien
+                    nisi
+                    aliquam egestas leo dignissim.</p>
+            </div>
+            <a href=""><button>Find a home</button></a>
+        </div>
+        {/* <!-- 2 --> */}
+        <div class="col-lg-4 colg-md-6 rent-items">
+            <img src={ImgSell} alt="buy a property"/>
+            <div class="rent-text">
+                <h2>Sell a property</h2>
+                <p>Amet, cras orci justo, tortor nisl aliquet. Enim tincidunt tellus nunc, nulla arcu
+                    posuere quis. Velit turpis orci venenatis.</p>
+            </div>
+            <a href=""><button>Find a home</button></a>
+        </div>
+        {/* <!-- 3 --> */}
+        <div class="col-lg-4 colg-md-6 rent-items">
+            <img src={ImgRent} alt="buy a property"/>
+            <div class="rent-text">
+                <h2>Rent a property</h2>
+                <p>Sed sed aliquet sed id purus malesuada congue viverra. Habitant quis lacus, volutpat
+                    natoque ipsum iaculis cursus.</p>
+            </div>
+            <a href=""><button>Find a home</button></a>
+        </div>
+    </div>
+
+
+
+</section>
+  )
+}

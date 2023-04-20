@@ -1,0 +1,93 @@
+import React from 'react'
+import todayImg from "../images/9.jpg"
+// import todayImg10 from "./images/10.jpg"
+import todayImg10 from "../images/10.jpg"
+import todayImg15 from "../images/15.jpg"
+export default function AddToday() {
+  return (
+    <section>
+
+    <div className="add-today-container">
+        <div className="Add-continer">
+            <h2>Added today</h2>
+            <ul className="add-list">
+                <li className="add-items"><a href="/" className="add-links">Apartments</a></li>
+                <li className="add-items"><a href="/" className="add-links">Houses</a></li>
+                <li className="add-items"><a href="/" className="add-links">Rooms</a></li>
+                <li className="add-items"><a href="/" className="add-links">Commercial</a></li>
+            </ul>
+            <span className="add-items">
+                <a className="arrow" href="">View <i className="fa fa-long-arrow-right"></i>
+                </a>
+            </span>
+        </div>
+        <div className="row img-size">
+            <div className="col-lg-6 add-img-warp">
+                <img src={todayImg} alt="" width="100%"/>
+
+                <div className="add-text  right-img-text">
+                    <div className="txt-items">
+                        <h6>For Rental</h6>
+                        <h3>Luxury Rental Villa</h3>
+                        <p>
+                            <i className="fa fa-map-marker loction-fav"></i>
+                            118-11 Sutphin Blvd Jamaica, NY 11434
+                        </p>
+                    </div>
+                    <div className="add-btn">
+                        <a href="/" className="add-btn-links">
+                            From $3,850 <button className="add-icon">
+                                <i className="fa fa-heart-o"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-6 left-img-container">
+                <div className="add-img-warp left-img left-1">
+                    <img src={todayImg15} alt="" width="100%"/>
+                    <div className="add-text left-text-img">
+                        <div className="txt-items">
+                            <h6>For Rental</h6>
+                            <h3>Luxury Rental Villa</h3>
+                            <p>
+                                <i className="fa fa-map-marker loction-fav"></i>
+                                118-11 Sutphin Blvd Jamaica, NY 11434
+                            </p>
+                        </div>
+                        <div className="add-btn">
+                            <a href="/" className="add-btn-links">
+                                From $3,850 <button className="add-icon">
+                                    <i className="fa fa-heart-o"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="add-img-warp left-img left-2">
+                    <img src={todayImg10} alt="" width="100%"/>
+                    <div className="add-text left-text-img">
+                        <div className="txt-items">
+                            <h6>For Rental</h6>
+                            <h3>Luxury Rental Villa</h3>
+                            <p>
+                                <i className="fa fa-map-marker loction-fav"></i>
+                                118-11 Sutphin Blvd Jamaica, NY 11434
+                            </p>
+                        </div>
+                        <div className="add-btn">
+                            <a href="/" className="add-btn-links">
+                                From $3,850 <button className="add-icon">
+                                    <i className="fa fa-heart-o"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+  )
+}
